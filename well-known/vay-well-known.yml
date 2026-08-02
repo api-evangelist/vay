@@ -1,0 +1,17 @@
+generated: '2026-07-21'
+method: searched
+source: live HTTP probes of https://vay.io/.well-known/*
+host: https://vay.io
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+notes: No well-known discovery documents are published on vay.io; all probed paths
+  returned 404. The site does publish /llms.txt (200) — captured in llms/vay-llms.txt.

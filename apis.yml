@@ -1,7 +1,24 @@
 aid: vay
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vay.png
 name: Vay
-description: 'Vay is a company surfaced as a portfolio company of creandum and added to the API Evangelist
-  network as a stub for enrichment. Sector: other. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Vay is a Berlin-headquartered teledriving (remote driving) mobility company,
+  founded in 2018 by Thomas von der Ohe, Fabrizio Scelsi, and Bogdan Djukic, that operates
+  the first commercial remotely driven car service. Customers in Las Vegas rent cars by
+  the minute that are delivered and parked driverless by professional remote drivers from
+  a Remote Driving Center; the company runs a 175-vehicle fleet, has served 50,000+ trips,
+  and raised a Series C from Grab in December 2025. Vay is a consumer mobility service and
+  does not publish a public developer API.'
 url: https://raw.githubusercontent.com/api-evangelist/vay/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +26,22 @@ x-backed-by:
 - creandum
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Other
+- Mobility
+- Teledriving
+- Remote Driving
+- Car Rental
+- Automotive
+- Transportation
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +49,17 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/vay-domain-security.yml
 - type: Website
   url: https://vay.io/
+- type: LLMsTxt
+  url: llms/vay-llms.txt
+- type: Blog
+  url: https://vay.io/blog/
+- type: Support
+  url: https://vay.io/our-service/faq/
+- type: TermsOfService
+  url: https://vay.io/legal/terms-and-conditions-for-customers-web/
+- type: PrivacyPolicy
+  url: https://vay.io/legal/privacy-policy-website/
