@@ -1,0 +1,27 @@
+# Front Door AI Index — vay — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: vay
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: vay.io
+  final_host: vay.io
+  ownership: own
+  owner: vay
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 3
+  host_score: 3
+  density: 2.93
+  words: 1025
+  tiers:
+    agentic: 0
+    core: 3
+    model: 0
+  ambiguous: 1
+  top_terms:
+    AI: 2
+    artificial intelligence: 1
+    intelligence: 1
